@@ -59,7 +59,7 @@ public class Computer {
     }
     
     public Computer(String customOperatingSystem, double customProcessTact, double customMemory, int customHardDrive) {
-       this.operatingSystem = customOperatingSystem;
+        this.operatingSystem = customOperatingSystem;
         this.processTact = customProcessTact;
         this.memory = customMemory;
         this.hardDrive = customHardDrive;

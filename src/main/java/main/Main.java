@@ -18,6 +18,21 @@ public class Main {
     Student student = new Student();    
     student.info();
     
+    student.setFirstName("Petar");
+    student.setLastName("Petrović");
+    student.setYearOfBirth(1990);
+    
+    student.getCourse().setName("QA");
+    student.getCourse().setNumberOfClasses(60);
+    
+    student.getComputer().setProcessTact(4.0);
+    student.getComputer().setMemory(16.00);
+    student.getComputer().setHardDrive(2000);
+        
+    student.info();
+    
+    
+    
     }
     
 }

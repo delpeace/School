@@ -28,7 +28,7 @@ public class Student {
         return this.lastName;
     }
     
-    public int getyearOfBirth() {
+    public int getYearOfBirth() {
         return this.yearOfBirth;
     }
     
@@ -74,11 +74,11 @@ public class Student {
         System.out.println("First Name: " + this.getFirstName());
         System.out.println("Last Name: " + this.getLastName());
         System.out.println("Year of birth: " + this.getYearOfBirth());
-        System.out.println("Course name: " + this.getName());
-        System.out.println("Course number of classes: " + this.getNumberOfClasses());
-        System.out.println("Process tact: " + this.getProcessTact());
-        System.out.println("Memory: " + this.getMemory());
-        System.out.println("Hard drive: " + this.getHardDrive());
+        System.out.println("Course name: " + course.getName());
+        System.out.println("Course number of classes: " + course.getNumberOfClasses());
+        System.out.println("Process tact: " + computer.getProcessTact());
+        System.out.println("Memory: " + computer.getMemory());
+        System.out.println("Hard drive: " + computer.getHardDrive());
     }
     
  
