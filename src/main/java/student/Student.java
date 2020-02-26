@@ -18,6 +18,7 @@ public class Student {
     private String lastName;
     int yearOfBirth;
     private Course course;
+    private Computer computer;
     
     public String getFirstName() {
         return this.firstName;
@@ -30,6 +31,15 @@ public class Student {
     public int getyearOfBirth() {
         return this.yearOfBirth;
     }
+    
+    public Course getCourse() {
+        return this.course;
+    }
+    
+    public Computer getComputer() {
+    return this.computer;
+    }
+    
 
     public void setFirstName(String customFirstName) {
         this.firstName = customFirstName;
@@ -53,6 +63,11 @@ public class Student {
         this.firstName = customFirstName;
         this.lastName = customLastName;
         this.yearOfBirth = customYearOfBirth;
+    }
+    
+    public Student(Course customCourse, Computer customComputer) {
+        this.course = customCourse;
+        this.computer = customComputer;
     }
  
     public void info() {
