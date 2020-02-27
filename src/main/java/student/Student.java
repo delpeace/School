@@ -53,11 +53,11 @@ public class Student {
         this.yearOfBirth = customYearOfBirth;
     } 
     
-    public Student() {
+    /*public Student() {
         this.firstName = "Petar";
         this.lastName = "Petrovic";
         this.yearOfBirth = 1990;
-    }
+    }*/
     
     public Student(String customFirstName, String customLastName, int customYearOfBirth) {
         this.firstName = customFirstName;
@@ -69,7 +69,12 @@ public class Student {
         this.course = customCourse;
         this.computer = customComputer;
     }
- 
+    
+    public Student(){
+        course = new Course();
+        computer = new Computer();
+    }
+    
     public void info() {
         System.out.println("First Name: " + this.getFirstName());
         System.out.println("Last Name: " + this.getLastName());

@@ -5,8 +5,8 @@
  */
 package main;
 
-import computer.Computer;
-import course.Course;
+//import computer.Computer;
+//import course.Course;
 import student.Student;
 
 
@@ -19,7 +19,8 @@ public class Main {
     public static void main(String[] args) {
     
     Student student = new Student();    
-    student.info();
+        
+//    student.info();
     
     student.setFirstName("Petar");
     student.setLastName("Petrović");
@@ -31,6 +32,8 @@ public class Main {
     student.getComputer().setProcessTact(4.0);
     student.getComputer().setMemory(16.00);
     student.getComputer().setHardDrive(2000);
+    
+    
         
     student.info();
     
