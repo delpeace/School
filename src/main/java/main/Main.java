@@ -5,7 +5,10 @@
  */
 package main;
 
+import computer.Computer;
+import course.Course;
 import student.Student;
+
 
 /**
  *
